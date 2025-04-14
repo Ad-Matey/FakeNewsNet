@@ -9,7 +9,23 @@ Contemporary Work Citing our Study: https://www.mdpi.com/2073-431X/13/11/292
 - This paper compares the performance of their proposed LLaMA 3 model in detecting fake claims on bilingual datasets with other large language models.
 
 ## Running Our Models
+
+### Training:
 - TODO
+  
+### Evaluation:
+- TODO
+
+### Using our models:
+
+We provide a file to test our trained models with command-line input.
+From within the code folder, run the test.py file
+
+	python test.py
+
+ Input either 'p', 'g', or 'b' to choose which trained model to use. 'p' and 'g' refer to models trained with the politifact or gossipcop datasets, while 'b' refers to the model trained with both. Then, enter the input to feed to the model.
+
+ The model will provide a response in the form of 'Real' or 'Fake'.
 
 ## FakeNewsNet
 
