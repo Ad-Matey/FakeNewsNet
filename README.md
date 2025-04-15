@@ -8,6 +8,8 @@ Prior Research Cited by our Study: https://www.sciencedirect.com/science/article
 Contemporary Work Citing our Study: https://www.mdpi.com/2073-431X/13/11/292
 - This paper compares the performance of their proposed LLaMA 3 model in detecting fake claims on bilingual datasets with other large language models.
 
+Further Datasets we used to train the model: https://paperswithcode.com/dataset/liar
+
 ## Running Our Models
 
 ### Training:
