@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
     if model_choice == 'p':
         model_path = "politifactModel/"
-        test_csv = "data/processed/test.csv"  # assuming politifact test set is loaded here
+        test_csv = "data/processed/test.csv"  
     elif model_choice == 'g':
         model_path = "gossipcopModel/"
         test_csv = "data/processed/test.csv"
@@ -61,3 +61,27 @@ if __name__ == "__main__":
     print(f"Precision: {precision:.4f}")
     print(f"Recall:    {recall:.4f}")
     print(f"F1 Score:  {f1:.4f}")
+    
+# GossipCop Model
+# Eval Loss: 0.3814
+# Accuracy: 0.2959
+# Precision: 0.2548
+# Recall: 0.9591
+# F1 Score: 0.4026
+# Interpretation: Very high recall but very low precision and accuracy.
+
+# PolitiFact Model
+# Eval Loss: 0.3992
+# Accuracy: 0.8425
+# Precision: 0.6999
+# Recall: 0.6359
+# F1 Score: 0.6664
+# Interpretation: Well balanced performance with decent precision and recall.
+
+# Combined Model
+# Eval Loss: 0.3887
+# Accuracy: 0.8752
+# Precision: 0.8335
+# Recall: 0.6193
+# F1 Score: 0.7106
+# Interpretation: Best overall performance with high precision and accuracy; recall is slightly lower.
